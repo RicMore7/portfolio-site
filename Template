@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricardo Moreira | Cybersecurity & Analytics Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0f172a;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #60a5fa;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .project {
+      background-color: #1e293b;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+    .project h2 {
+      margin-top: 0;
+    }
+    .project a {
+      color: #38bdf8;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #0f172a;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ricardo Moreira</h1>
+    <p>Cybersecurity Management | Data Analytics | Risk Intelligence</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <section id="projects">
+      <h2>Featured Projects</h2>
+
+      <div class="project">
+        <h3>Cybersecurity Breach Prediction Model</h3>
+        <p>Built a machine learning model using Random Forest to predict potential data breaches based on key risk indicators like MFA usage, malware exposure, and training levels. Achieved 87% accuracy. <a href="#">View GitHub Repo</a></p>
+      </div>
+
+      <div class="project">
+        <h3>Vulnerability Dashboard (CVE/CWE Trends)</h3>
+        <p>Interactive dashboard showing trends in software vulnerabilities using NVD data. Analyzed most common weaknesses and vendors impacted. <a href="#">View Demo</a></p>
+      </div>
+
+      <div class="project">
+        <h3>Property Management Expense Tracker</h3>
+        <p>Created a Python-based app to track expenses, generate monthly summaries, and automate rent reminders for multiple rental properties. <a href="#">View GitHub Repo</a></p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a recent graduate from Virginia Tech with a degree in Cybersecurity Management and Analytics. I blend a strong foundation in business operations with hands-on experience in cybersecurity, data analytics, and process automation. I'm passionate about using technology to solve real-world problems and reduce risk exposure for organizations.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: ricardo.moreira@email.com</p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/ricardomoreira</a></p>
+      <p>GitHub: <a href="#">github.com/ricardomoreira</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ricardo Moreira. All rights reserved.</p>
+  </footer>
+</body>
+</html>
